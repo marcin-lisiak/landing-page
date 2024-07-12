@@ -40,7 +40,7 @@ header {
 }
 
 .hero-page {
-    height: 50vh;
+    height: 30vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -70,6 +70,13 @@ header {
 .hero-image {
     flex: 1;
     padding-left: 50px;
+    max-width: 100%;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
 .hero-button {
